@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+header {
+    width: 100%;
+}
+
+
+.container-box-header-logo-img {
+    width: 10%;
+}
+
+.container-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu-header {
+    width: 50%;
+}
+
+.menu-header ul {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+/**
+@media (max-width: 750px) {
+    .menu {
+        display: none;
+    }
+}
+**/
+
+.menu-header li {
+    list-style: none;
+    font-size: 100%;
+    
+}
