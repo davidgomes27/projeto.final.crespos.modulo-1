@@ -11,6 +11,9 @@ body {
 /** header **/
 
 header {
+    position: fixed;
+    z-index: 999999;
+    background-color: #ffffff;
     width: 100%;
 }
 
@@ -161,6 +164,7 @@ header {
 
 main{
     width: 100%;
+    padding-top: 6%;
 }
 
 .main-container-cabeludo {
